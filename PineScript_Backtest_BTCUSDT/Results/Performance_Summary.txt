@@ -1,0 +1,25 @@
+SMA Crossover Strategy - Performance Summary
+
+1. Key Performance Metrics
+
+    •	Net Profit: +37,567.84 USDT (+3.76%)
+    •	Profit Factor: 2.09
+    •	Win Rate: 40.00% (12 wins out of 30 trades)
+    •	Max Equity Drawdown: 15,865.35 USDT (1.51%)
+    •	Average Winning Trade: 6,003.15 USDT (10.05%)
+    •	Average Losing Trade: 1,915.00 USDT (2.48%)
+    •	Largest Winning Trade: 19,214.00 USDT (29.21%)
+    •	Largest Losing Trade: 4,199.98 USDT (5.14%)
+    •	Sharpe Ratio: 0.138
+    •	Sortino Ratio: 0.259
+
+2. Strategy Analysis
+The SMA crossover strategy generated a net profit of +37,567.84 USDT, with a profit factor of 2.09, meaning that for every dollar lost, the strategy gained over twice as much. However, the win rate was relatively low at 40%, indicating that the strategy relies on larger wins rather than frequent wins.
+The largest winning trade (19,214 USDT) significantly outweighed the largest losing trade (4,199.98 USDT), showing that the strategy can capture strong trends. The risk, however, is evident in the drawdown of 1.51%, which suggests that the strategy can experience moderate declines in equity before recovering.
+The Sharpe Ratio of 0.138 and Sortino Ratio of 0.259 indicate that while the strategy is profitable, it may not be optimal in terms of risk-adjusted returns.
+
+3. Recommendations for Optimization
+    •	Increasing the win rate: The strategy currently has a 40% win rate, which could be improved by refining entry/exit conditions or incorporating additional filters (e.g., RSI confirmation).
+    •	Reducing drawdowns: Adjusting stop-loss settings or testing alternative SMA lengths might improve stability.
+    •	Exploring risk management tweaks: Implementing position sizing rules or using volatility-based stops may help improve overall performance.
+
