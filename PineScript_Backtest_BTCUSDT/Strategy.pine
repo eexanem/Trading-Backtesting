@@ -1,0 +1,21 @@
+//@version=6
+strategy("SMA Crossover Strategy", overlay=true)
+
+// Define Moving Averages
+smaShort = ta.sma(close, 50)
+smaLong = ta.sma(close, 200)
+
+// Entry Conditions
+longCondition = ta.crossover(smaShort, smaLong)
+shortCondition = ta.crossunder(smaShort, smaLong)
+
+// Place Trades
+if longCondition
+    strategy.entry("Long", strategy.long)
+
+if shortCondition
+    strategy.close("Long")
+
+// Plot SMAs on the chart
+plot(smaShort, color=color.blue, title="SMA 50")
+plot(smaLong, color=color.red, title="SMA 200")
