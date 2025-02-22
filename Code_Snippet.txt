@@ -1,0 +1,7 @@
+// Define Moving Averages
+smaShort = ta.sma(close, 50)
+smaLong = ta.sma(close, 200)
+
+// Entry Conditions
+longCondition = ta.crossover(smaShort, smaLong)
+shortCondition = ta.crossunder(smaShort, smaLong)
